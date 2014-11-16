@@ -1,0 +1,9 @@
+exit
+gen-idea
+exit
+~jetty-run
+~; container:start; container:reload /
+~jetty-run
+container:starts
+~container:starts
+~; container:start; container:reload /

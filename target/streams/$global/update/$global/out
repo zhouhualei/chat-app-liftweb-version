@@ -1,0 +1,1189 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/}chat-app-liftweb-version...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: me.warren#chat-app-liftweb-version_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e1143a8[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-webkit_2.10;2.5-RC1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-webkit_2.10;2.5-RC1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-webkit_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-webkit_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-webkit_2.10;2.5-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-util_2.10;2.5-RC1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-util_2.10;2.5-RC1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-util_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-util_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-util_2.10;2.5-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-actor_2.10;2.5-RC1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-actor_2.10;2.5-RC1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-actor_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-actor_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-actor_2.10;2.5-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-common_2.10;2.5-RC1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-common_2.10;2.5-RC1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-common_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-common_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-common_2.10;2.5-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.2[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-json_2.10;2.5-RC1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.liftweb#lift-json_2.10;2.5-RC1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-json_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-json_2.10;2.5-RC1[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-json_2.10;2.5-RC1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scalap;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
+[0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: joda-time#joda-time;2.1[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.6[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving javax.mail#mail;1.4.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.mail#mail;1.4.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.mail#mail;1.4.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.mail#mail;1.4.4[0m
+[0m[[0mdebug[0m] [0m	found javax.mail#mail;1.4.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.activation#activation;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.activation#activation;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.activation#activation;1.1[0m
+[0m[[0mdebug[0m] [0m	found javax.activation#activation;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving nu.validator.htmlparser#htmlparser;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: nu.validator.htmlparser#htmlparser;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: nu.validator.htmlparser#htmlparser;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: nu.validator.htmlparser#htmlparser;1.4[0m
+[0m[[0mdebug[0m] [0m	found nu.validator.htmlparser#htmlparser;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-fileupload#commons-fileupload;1.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-fileupload#commons-fileupload;1.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-fileupload#commons-fileupload;1.2.2[0m
+[0m[[0mdebug[0m] [0m	found commons-fileupload#commons-fileupload;1.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {container=[default(compile)], compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/warzhou1/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (3.0.0.v201112011016)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.pom(pom.original) (1688ms)[0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty.orbit#jetty-orbit;1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty.orbit#jetty-orbit;1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty.orbit#jetty-orbit;1[0m
+[0m[[0mdebug[0m] [0m		tried /Users/warzhou1/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.orbit[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.orbit[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.orbit[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/snapshots/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.orbit[0m
+[0m[[0mdebug[0m] [0m		tried http://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.orbit[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 {container=[default(compile)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-webapp;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-webapp;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-xml;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-xml;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-xml;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-xml;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-xml;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-util;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-servlet;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-servlet;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-security;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-security;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-security;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-security;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-security;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-server;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-server;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-server;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-continuation;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-http;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.7.v20120910 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.7.v20120910 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.7.v20120910[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.jetty#jetty-io;8.1.7.v20120910 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->net.liftweb#lift-util_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-actor_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->net.liftweb#lift-common_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-common_2.10;2.5-RC1->org.slf4j#slf4j-api;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-actor_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->net.liftweb#lift-json_2.10;2.5-RC1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->org.scala-lang#scalap;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-json_2.10;2.5-RC1->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.scala-lang#scala-compiler;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->joda-time#joda-time;2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->commons-codec#commons-codec;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->javax.mail#mail;1.4.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.4->javax.activation#activation;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-util_2.10;2.5-RC1->nu.validator.htmlparser#htmlparser;1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->commons-fileupload#commons-fileupload;1.2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.liftweb#lift-webkit_2.10;2.5-RC1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->net.liftweb#lift-webkit_2.10;2.5-RC1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-compiler;2.10.0 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.0 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#jline;2.10.0 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.0->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.scala-lang#scala-library;2.10.0 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'container'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for me.warren#chat-app-liftweb-version_2.10;1.0 [container][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [container->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [container->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [container->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-xml;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-xml;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-webapp;8.1.7.v20120910->org.eclipse.jetty#jetty-servlet;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-servlet;8.1.7.v20120910->org.eclipse.jetty#jetty-security;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-security;8.1.7.v20120910->org.eclipse.jetty#jetty-server;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-continuation;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-server;8.1.7.v20120910->org.eclipse.jetty#jetty-http;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-http;8.1.7.v20120910->org.eclipse.jetty#jetty-io;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.7.v20120910->org.eclipse.jetty#jetty-util;8.1.7.v20120910 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty#jetty-webapp;8.1.7.v20120910 [container->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies me.warren#chat-app-liftweb-version_2.10;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [container->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/me.warren/chat-app-liftweb-version_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.0!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-webkit_2.10;2.5-RC1!lift-webkit_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-util_2.10;2.5-RC1!lift-util_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-fileupload#commons-fileupload;1.2.2!commons-fileupload.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-actor_2.10;2.5-RC1!lift-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-json_2.10;2.5-RC1!lift-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.1!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.mail#mail;1.4.4!mail.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] nu.validator.htmlparser#htmlparser;1.4!htmlparser.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-common_2.10;2.5-RC1!lift-common_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.2!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.activation#activation;1.1!activation.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-webapp;8.1.7.v20120910!jetty-webapp.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;8.1.7.v20120910!jetty-xml.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-servlet;8.1.7.v20120910!jetty-servlet.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.7.v20120910!jetty-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-security;8.1.7.v20120910!jetty-security.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-server;8.1.7.v20120910!jetty-server.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.7.v20120910!jetty-continuation.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.7.v20120910!jetty-http.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.7.v20120910!jetty-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.0!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4806ms :: artifacts dl 32ms[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 compile produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 runtime produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 test produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 provided produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 optional produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 compile-internal produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 runtime-internal produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 test-internal produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 plugin produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 sources produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 docs produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 pom produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 scala-tool produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for me.warren#chat-app-liftweb-version_2.10;1.0 container produced in /Users/warzhou1/projects/scala-projects/chat-app-liftweb-version/target/resolution-cache/reports/me.warren-chat-app-liftweb-version_2.10-container.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (4806ms resolve - 32ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
